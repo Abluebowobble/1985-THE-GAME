@@ -7,8 +7,8 @@ class TitleScreen:
         pygame.mixer.init()
 
         self.screen = screen
-        pygame.display.set_caption("tetris")
-        self.font = pygame.font.Font("fonts/Tetris.ttf", 30)
+        pygame.display.set_caption("1985")
+        self.font = pygame.font.Font("fonts/load_font.ttf", 30)
 
         self.current_screen = "title"
         self.play_selected = False
@@ -16,7 +16,7 @@ class TitleScreen:
         self.title_entities()
 
     def title_entities(self):
-        self.background_image = pygame.image.load("images/bg_image.jpg").convert()
+        self.background_image = pygame.image.load("images/bg_image.webp").convert()
         self.background = pygame.transform.scale(self.background_image, (self.screen.get_width(), self.screen.get_height()))
         self.screen.blit(self.background, (0, 0))
 
@@ -30,7 +30,7 @@ class TitleScreen:
         )
         self.settings_button = button.Button(
             x=250, y=420, width=300, height=60, 
-            text="Settings", 
+            text="Instructions", 
             color=(100, 100, 100), 
             hover_color=(160, 160, 160), 
             text_color=(255, 255, 255), 
@@ -54,14 +54,14 @@ class TitleScreen:
         )
 
     def title_screen(self):
-        title_font = pygame.font.Font("fonts/Tetris.ttf", 150)
-        title_text = title_font.render("TETRIS", True, (255, 255, 255))
+        title_font = pygame.font.Font("fonts/load_font.ttf", 200)
+        title_text = title_font.render("1985", True, (0, 0, 0))
 
         smaller_font = pygame.font.Font("fonts/alternate_font.otf", 40)
-        smaller_text = smaller_font.render("Made by people", True, (255, 255, 255))
+        smaller_text = smaller_font.render("Made by Goldstein", True, (0, 0, 0))
 
-        self.screen.blit(title_text, (80, 20))
-        self.screen.blit(smaller_text, (200, 150))
+        self.screen.blit(title_text, (230, 10))
+        self.screen.blit(smaller_text, (210, 200))
 
         self.play_button.draw(self.screen)
         self.exit_button.draw(self.screen)
@@ -98,7 +98,7 @@ class TitleScreen:
             pygame.display.flip()
 
     def settings_screen(self):
-        title_font = pygame.font.Font("fonts/Tetris.ttf", 100)
+        title_font = pygame.font.Font("fonts/load_font.ttf", 100)
         self.awaiting_key = None
         title_text = title_font.render("SETTINGS", True, (255, 255, 255))
         self.screen.blit(title_text, (120, 20))

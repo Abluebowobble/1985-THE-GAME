@@ -6,7 +6,7 @@ class LoadingScreen:
         pygame.mixer.init()
 
         self.screen = pygame.display.set_mode((800, 600))
-        pygame.display.set_caption("tetris")
+        pygame.display.set_caption("1985")
         self.font = pygame.font.Font("fonts/load_Font.ttf", 160)
         self.message = self.font.render("BIG BROTHER IS", True, (255, 255, 255))
         self.message2 = self.font.render("WATCHING  YOU", True, (255, 255, 255))

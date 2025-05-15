@@ -10,7 +10,7 @@ class Main:
 
         # display the screen
         self.screen = pygame.display.set_mode((800, 600))
-        pygame.display.set_caption("tetris")
+        pygame.display.set_caption("1985")
 
         self.entities()
 
@@ -30,7 +30,7 @@ class Main:
 
     def transition(self, title_page):
         y = 600
-        speed = 20
+        speed = 30
         clock = pygame.time.Clock()
 
         while y > 0:
