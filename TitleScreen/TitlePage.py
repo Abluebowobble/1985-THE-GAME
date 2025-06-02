@@ -100,7 +100,7 @@ class TitleScreen:
     def settings_screen(self):
         title_font = pygame.font.Font("fonts/load_font.ttf", 100)
         self.awaiting_key = None
-        title_text = title_font.render("SETTINGS", True, (255, 255, 255))
+        title_text = title_font.render("INSTRUCTIONS", True, (255, 255, 255))
         self.screen.blit(title_text, (120, 20))
         self.back_button.draw(self.screen)
 
