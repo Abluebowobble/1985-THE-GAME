@@ -1,0 +1,997 @@
+:: StoryTitle
+1985 Day 2
+
+
+:: StoryData
+{
+  "ifid": "2E9B8B0D-134B-423D-B3BE-0134A102BDEB",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Day 2",
+  "zoom": 1
+}
+
+
+:: 2.01.1P {"position":"500,3000","size":"100,100"}
+You are inside your victory mansion.
+
+Objective updated: End your day once again
+
+You have a nagging feeling something is missing. But your intuition lets it go.
+
+[[>>>|BED]]
+
+
+:: 2.1F {"position":"800,200","size":"100,100"}
+You've completed your first day at work. Good job comrade.
+
+[[> New objective: Start Day 2 of work.|2.2F]]
+
+
+:: 2.1P {"position":"500,800","size":"100,100"}
+You decide to approach Fiona.
+
+[[A plusgood choice|2.2P]]
+
+
+
+:: 2.1S {"position":"600,200","size":"100,100"}
+You've completed your first day at work. Good job comrade.
+
+[[> New objective: Start Day 2 of work.|2.2S]]
+
+
+:: 2.2F {"position":"800,300","size":"100,100"}
+Do you want to exit your room?
+
+> [[Yes|2.3.1F]]
+> [[No|2.2F]]
+
+
+:: 2.2P {"position":"500,900","size":"100,100"}
+<span class="party-text">
+Oh! Hey there, newbie~ 
+Everyone, this is our adorable new coworker. Comrade <<= $name>>! 
+Go on, say hi, <<= $name>>. No need to be shy! We’re all <span class="party-bold">goodthinkful </span>friends here!  
+</span>
+[[Hello?|2.3P]]
+
+
+
+:: 2.2S {"position":"600,300","size":"100,100"}
+Do you want to exit your room?
+
+> [[Yes|2.3.1S]]
+> [[No|2.2S]]
+
+
+:: 2.3.1F {"position":"800,400","size":"100,100"}
+You are in the streets, outside the Victory Mansion.
+
+The victory mansion door looms over you.
+
+<<set $date = "April 4th, 1988?">>
+[[> Morning. April 4th, 1988?|2.3.3S]]
+
+
+
+:: 2.3.1S {"position":"600,400","size":"100,100"}
+You are in the streets, outside the Victory Mansion.
+
+The victory mansion door looms over you.
+
+[[> You need to be at work soon.|2.3.3S]]
+
+<<set $date = "Spring, 1988?">>
+
+
+
+:: 2.3.3S {"position":"600,500","size":"100,100"}
+You are at the tram stop. 
+Where would you like to go?
+<span class="b-text">
+[[Ministry of Truth, Intranet Department|2.5.1S]]
+???
+???
+???
+</span>
+
+
+:: 2.3P {"position":"500,1000","size":"100,100"}
+<span class="party-text">
+Anyway, we were just talking about the war. 
+It’s really such a shame how some people still can’t <span class="party-bold">bellyfeel</span> Big Brother’s love. 
+Don’t you think that’s just a little sad?  
+</span>
+You said it! (Crowd)
+
+[[The crowd’s fervor rises.|2.4P]]
+
+
+
+
+:: 2.4.1F {"position":"900,800","size":"100,100"}
+<span class="b-text">Daring are we?</span>
+
+[[You approach Leon.|2.4.2F]]
+
+
+:: 2.4.2F {"position":"900,900","size":"100,100"}
+<span class="individual-text">Hello?</span>
+
+<span class="party-text">Hmph.</span>
+
+[[You realise joining Fiona may have been a better choice.|2.4.3F]]
+
+
+
+:: 2.4.3F {"position":"900,1000","size":"100,100"}
+You peer over to Fiona’s group and notice everyone in a frenzy.
+
+<span class="individual-text">Wow, Fiona seems to have whipped the crowd up. I wonder what they’re discussing.</span>
+
+<span class="party-text">Hah. <span class="party-bold">Preaching Big Brother</span> no doubt. </span>
+<span class="individual-text">
+That was… surprisingly aggressive.
+[[Was that also a facecrime?|2.4.4F]]
+</span>
+
+
+:: 2.4.4F {"position":"900,1100","size":"100,100"}
+<span class="party-text"><span class="party-bold">You’ve noticed too, right?</span> We all know yet don’t know. </span>
+
+Leon walks away leaving you confused.
+<span class="individual-text">
+What? This can’t possibly be allowed right?
+What if someone overheard?
+</span>
+[[Lucky for you, Fiona’s stunt enchants the entire street.|PRE-TRAM DECISION]]
+
+
+:: 2.45P {"position":"500,1200","size":"100,100"}
+<span class="party-text">
+They simply can’t compare with <span class="party-bold">His genius</span> or the glory of Ingsoc.
+Look at the floating fortress. Look at Airstrip One. Only Oceania creates real things. <span class="party-bold">Only we think correctly.</span>
+</span>
+<span class="b-text">Disgusting! Trash! Subhuman! Scum! </span>(crowd)
+
+The crowd is tense. <span class="b-text">Generating electricity</span> even seems possible from the surrounding air.
+
+[[>>>|2.5P]]
+
+
+:: 2.4P {"position":"500,1100","size":"100,100"}
+<span class="party-text">
+It’s Big Brother. The most <span class="party-bold">doubleplusgood</span>, caring man in the universe.
+And those Eastasians? Still lost in death worship and full of <span class="party-bold">facecrime</span>.
+They even think two plus two is five.
+</span>
+[[>>>|2.45P]]
+
+
+
+:: 2.5.1F {"position":"900,1700","size":"100,100"}
+<span class="individual-text">
+Phew, today was particularly hard.
+What was with that weird post as well…
+</span>
+[[You finally have time, you let your mind wander.|2.5.2F]]
+
+
+:: 2.5.1S {"position":"700,600","size":"100,100"}
+Something appears to have happened to your tram.
+
+[[Everybody off. The axle snapped! (Driver)|2.5.2S]]
+
+
+
+:: 2.5.2F {"position":"900,1800","size":"100,100"}
+<span class="individual-text">
+W- w- wait, something feels wrong!
+</span>
+<<link ">> Continue">>
+    <<goto "2.6.3S">>
+<</link>>
+<<link ">> Stop">>
+    <<set $path = 0>>
+    <<goto "2.7.3P">>
+<</link>>
+
+
+
+:: 2.5.2S {"position":"700,700","size":"100,100"}
+You, along with everyone on the tram, pile off the vehicle.
+The driver is busily trying to repair the tram.
+<span class="individual-text"><i>
+Hm. I should wait until the tram is repaired again.
+What can I do to pass the time for now?
+[[Wait. Is that Fiona and Leon?|2.5.3S]]
+</i></span>
+
+
+
+
+
+:: 2.5.3F {"position":"900,1900","size":"100,100"}
+<span class="individual-text">
+Was the past wrong? Did I imagine all of it? 
+But I didn’t imagine the sound.
+I didn’t imagine the sparks.
+So… what else is real? 
+</span>
+<<link ">> Continue">>
+	<<goto "2.5.4F">>
+<</link>>
+<<link ">> Stop">>
+    <<set $path = 1>>
+    <<goto "2.6.7S">>
+<</link>>
+
+
+:: 2.5.3S {"position":"700,800","size":"100,100"}
+You see Fiona in a group of other Minitrue comrades and Leon on his own reading the Times.
+
+Who should you go talk to?
+<<link "Fiona">>
+    <<set $path = 0>>
+    <<goto "2.1P">>
+<</link>>
+<<link "Leon">>
+    <<set $path = 2>>
+    <<goto "2.4.1F">>
+<</link>>
+<<link "Stay on your own">>
+    <<set $path = 1>>
+    <<goto "2.5.4S">>
+<</link>>
+
+
+:: 2.5.4F {"position":"900,2000","size":"100,100"}
+You reaffirm your conclusion in your hearts. But perhaps the full consequences have not reached you.
+
+You notice a hastily scribbled note hidden under your keyboard.
+
+It says: Realised? [[Follow the path down the community centre.|2.6.1F]]
+
+
+
+:: 2.5.4S {"position":"700,900","size":"100,100"}
+You chose to stay on your own. Perhaps the Party isn’t the sole cause of your small friend circle.
+
+[[You wait quite patiently.|PRE-TRAM DECISION]]
+
+
+:: 2.55P {"position":"500,1400","size":"100,100"}
+<span class="party-text">
+I had a malreport of a brother once. 
+But Big Brother made everything right. The present was corrected, and now there's no confusion.
+<span class="party-bold">I’m grateful every day for that. Truly. </span>
+</span>
+Keep <span class="party-bold">duckspeaking</span> comrade Fiona! (Crowd)
+
+[[A wave of applause flows over the crowd.|2.6P]]
+
+
+:: 2.5P {"position":"500,1300","size":"100,100"}
+<span class="party-text">
+It’s alright. Big Brother will bring them clarity, just like <span class="party-bold">He </span>always does. 
+He knows exactly what to do with people like that. 
+</span>
+
+[[>>>|2.55P]]
+
+
+:: 2.6.1F {"position":"900,2100","size":"100,100"}
+Your work day passes uneventfully.
+You arrive at the community centre in anticipation.
+
+[[>>>|2.7.1F]]
+
+
+:: 2.6.1S {"position":"700,1800","size":"100,100"}
+<span class="individual-text">
+Phew, today was particularly hard.
+What was with that ungood post as well…
+</span>
+[[You finally have time, you let your mind wander.|2.6.2S]]
+
+
+:: 2.6.2S {"position":"700,1900","size":"100,100"}
+<span class="individual-text">
+W- w- wait, something feels wrong!
+</span>
+<<link ">> Continue">>
+    <<goto "2.6.3S">>
+<</link>>
+<<link ">> Stop">>
+    <<set $path = 0>>
+    <<goto "2.7.3P">>
+<</link>>
+
+
+
+:: 2.6.3S {"position":"700,2000","size":"100,100"}
+<span class="individual-text">
+The Tram… That shouldn't have happened.
+The tram axle… actually broke.
+</span>
+[[>>>|2.6.4S]]
+
+
+:: 2.6.4S {"position":"700,2100","size":"100,100"}
+<span class="individual-text">
+A mechanical failure in Oceania?
+But the Times said it couldn’t happen?
+I should check that Times article again, I may have misremembered.
+But I remember for sure that the Times did say that.
+</span>
+[[>>>|2.6.5S]]
+
+
+:: 2.6.5S {"position":"700,2200","size":"100,100"}
+<span class="individual-text">
+So… either the tram failed… or the Times did. 
+And if the Times made a mistake—
+No. That’s not possible. Is it?
+</span>
+<<link ">>>">>
+    <<if $path is 1>>
+        <<goto "2.6.6S">>
+    <<elseif $path is 2>>
+        <<goto "2.5.3F">>
+    <</if>>
+<</link>>
+
+
+:: 2.6.6S {"position":"700,2300","size":"100,100"}
+<span class="individual-text">
+Was the past wrong? Did I imagine all of it? 
+But I didn’t imagine the sound.
+I didn’t imagine the sparks.
+So… what else is real? 
+</span>
+[[>>>|2.6.7S]]
+
+
+:: 2.6.7S {"position":"700,2400","size":"100,100"}
+Your hair stands on its edge, it appears you controlled yourself from a facecrime.
+
+Perhaps your crimestop needs some improvement though
+
+Your party schedule says to participate in community events after work.
+
+[[>>>|2.6.8S]]
+
+
+:: 2.6.8S {"position":"700,2500","size":"100,100"}
+Your day passes uneventfully.
+You finish work, the Two Minutes Hate, and your community centre participation
+Once again, you are greeted by the sight of your breezy home.
+
+[[>>>|2.7.1S]]
+
+
+:: 2.6P {"position":"500,1500","size":"100,100"}
+Alright the tram is up and running. All aboard! (Driver)
+<span class="party-text">
+Oh! Looks like it’s time to get to work haha!
+Come on,<<= $name>>. You wouldn’t want to keep <span class="party-bold">Big Brother</span> waiting. 
+</span>
+<span class="individual-text">Right…</span>
+[[>>>|TRAM DECISION]]
+
+
+:: 2.7 {"position":"700,1400","size":"100,100"}
+You are inside the <span class="party-bold">Ministry of Truth, Intranet Department.</span>
+
+Objective updated: Continue to your cubicle, #3, and [[start your work|MINIGAME]]
+
+
+
+
+:: 2.7.1F {"position":"900,2200","size":"100,100"}
+Welcome to the community centre comrade
+You see a path to a side clearing. This is the direction you need to go down.
+
+Objective updated: [[Continue to through clearing.|2.8.1F]]
+
+
+
+:: 2.7.1P {"position":"500,1700","size":"100,100"}
+ <span class="individual-text">
+ Phew, today was plushard.
+ What was with that ungood post as well…
+</span>
+[[You finally have time, you let your mind wander.|2.7.2P]]
+
+
+:: 2.7.1S {"position":"700,2600","size":"100,100"}
+You are inside your victory mansion.
+
+Objective updated: End your day once again
+
+You glance at your table. Perhaps something is missing?
+
+[[>>>|BED]]
+
+
+:: 2.7.2P {"position":"500,1800","size":"100,100"}
+ <span class="individual-text">
+W- w- wait, something feels wrong!
+</span>
+[[>>>|2.7.3P]]
+
+
+
+:: 2.7.3P {"position":"500,1900","size":"100,100"}
+Your years of crimestop pay their dues.
+
+You check your schedule. Fiona is hosting a lecture at the community centre.
+
+[[At least you have something to look forward to now.|2.8P]]
+
+
+:: 2.8.1F {"position":"900,2300","size":"100,100"}
+You enter the gap of the buildings into the back alleys.
+Finally, you arrive at an empty clearing. There appears to be a man present.
+
+[[>>>|2.8.2F]]
+
+
+:: 2.8.2F {"position":"900,2400","size":"100,100"}
+<span class="party-text">Well, you actually showed up. I really didn’t expect you to do so when you didn’t even know the sender. </span>
+
+It was Leon.
+
+<span class="individual-text">[[I had an inkling of an idea.|2.8.3F]]</span>
+
+
+:: 2.8.3F {"position":"900,2500","size":"100,100"}
+<span class="party-text">Since you’re here, you have something in mind I assume?</span>
+
+<span class="individual-text">[[Same as yours.|2.8.4F]]</span>
+
+
+:: 2.8.4F {"position":"900,2600","size":"100,100"}
+<span class="party-text">
+Great, we’re on the same page.
+
+You know already. Every Oceanian knows us.
+
+It’s simple, prove yourself first.
+
+Head to this address. 
+</span>
+[[>>>||2.8.5F]]
+
+
+:: 2.8.5F {"position":"900,2700","size":"100,100"}
+You receive a scrap of paper with an address on it. This time in a font different from the note under your keyboard.
+
+[[>>>|2.8.6F]]
+
+
+:: 2.8.6F {"position":"900,2800","size":"100,100"}
+<span class="party-text">
+Ask the shopkeeper for a basket of chestnut cookies.
+
+Leave it here afterwards.
+
+And also, welcome to the graveyard.
+
+Leon fades away into the alleyways once again leaving you alone.
+</span>
+[[>>>|2.8.7F]]
+
+
+:: 2.8.7F {"position":"900,2900","size":"100,100"}
+You gaze around you.
+The cracked facades, leaky homes, and puddles black ooze
+Trash haphazardly discarded and boarded windows.
+All symbols of the the Party’s Oceania
+
+[[>>>|2.8.8F]]
+
+
+:: 2.8.8F {"position":"900,3000","size":"100,100"}
+Should we live in continued ignorance, enslaved by these chains in constant war within and without?
+
+This epiphany strikes you, and the evening passes once again.
+
+[[>>>|2.9.1F]]
+
+
+:: 2.8P {"position":"500,2000","size":"100,100"}
+Your work day passes uneventfully.
+[[You arrive at the community centre in anticipation.|2.9.1P]]
+
+
+:: 2.9.1F {"position":"900,3200","size":"100,100"}
+You are inside your victory mansion.
+
+Objective updated: End your day once again
+
+Your copy of the Times from yesterday is missing. It appears the past has caught up to the present again.
+
+[[>>>|BED]]
+
+
+:: 2.9.1P {"position":"500,2100","size":"100,100"}
+Welcome to the community centre comrade
+You see the doors. This is the direction you need to go down.
+
+[[Objective updated: Enter the community centre.|2.9.2P]]
+
+
+:: 2.9.2P {"position":"500,2200","size":"100,100"}
+You enter into a damp and cramped classroom
+[[At the front is Fiona with a telescreen.|2.9.3P]]
+
+
+:: 2.9.3P {"position":"500,2300","size":"100,100"}
+<span class="party-text">
+Hey~ <span class="party-bold">doubleplusgood</span> to see you here! 
+Such loyalty and diligence! 
+You’re here to listen to Big Brother’s wisdom right? 
+Wait shhhhh, Big Brother is about to begin! 
+</span>
+[[The telescreen flickers until finally changing program|2.9.4P]]
+
+
+
+:: 2.9.4P {"position":"500,2400","size":"100,100"}
+<span class="party-text">
+To my comrades across the vast Oceania, your Big Brother greets you! 
+It is time for the Order of the Day. 
+</span>
+[[>>>|2.9.5P]]
+
+
+:: 2.9.5P {"position":"500,2500","size":"100,100"}
+<span class="party-text">
+Today, we shall commemorate comrade the plusgood attitude of Comrade Toillstone. 
+His exemplary work building joycamps across our new territories and boosting production to <span class="party-bold">doubleplusheights</span>.
+He has demonstrated the true virtues of Ingsoc.
+And what are those virtues?
+</span>
+[[>>>|2.9.6P]]
+
+
+:: 2.9.6P {"position":"500,2700","size":"100,100"}
+<span class="party-text">
+The ability to stand for the justice of the people.
+The ability to see past the lies and treachery of Eurasia
+Which lies you may ask? 
+The lies of…
+</span>
+[[>>>|2.9.7P]]
+
+
+:: 2.9.7P {"position":"500,2800","size":"100,100"}
+You, and those around you listen intently to Big Brother.
+For once, the room, despite the decrepitness, provides a serene and calm atmosphere. 
+Silent and contemplative. Reflective and sincere. Emotions of beauty and love.
+Looking over to Fiona, you see the most genuine smile you have ever seen
+
+[[>>>|2.9.8P]]
+
+
+:: 2.9.8P {"position":"500,2900","size":"100,100"}
+Perhaps the rule of the Party is peace. 
+Is this the look of violence, war, and ignorance?
+Everyone in harmony?
+
+[[This epiphany strikes you, and the evening passes once again.|2.01.1P]]
+
+
+:: BED {"position":"700,2900","size":"100,100"}
+Go to bed?
+
+[[Yes|Ending]]
+
+
+
+
+:: Day 2 {"position":"200,200","size":"100,100"}
+Hey this is just here to indicate that this is the start of day 2!
+
+Delete Everything Here!
+<<set $name = "testName">>
+<<set $inventory = []>>
+<<set $money = 0>>
+<<set $date = "">>
+
+<<set $path = 1>>
+
+There are two possible paths that the user can be on from the end on day 1:
+ - [[Spineless Loser|2.1S]]
+ - [[Freedom Fighter|2.1F]]
+ 
+
+
+:: Day-2-minigame-1 {"position":"1100,1600","size":"100,100"}
+<<set $currentQuestion = 1>><<set $numCorrect = 0>><<set $numWrong = 0>>
+<span class="computer-text">“My 8-year-old reported me for mumbling in my sleep. I’m so proud of him.”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+:: Day-2-minigame-10 {"position":"1100,2500","size":"100,100"}
+<span class="computer-text">“My neighbour smiled too much this morning. It looked like ownlife!”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+:: Day-2-minigame-11 {"position":"1100,2600","size":"100,100"}
+You're starting to feel tired. 
+You call it a day and decide to quit for now.
+
+Final Score:
+Correct: <<= $numCorrect>>
+Wrong: <<= $numWrong>>
+
+[[Complete Minigame|MINIGAME COMPLETE]]
+
+
+:: Day-2-minigame-2 {"position":"1100,1700","size":"100,100"}
+<span class="computer-text">“Big Brother’s eyes are always watching. That thought makes me feel safe.”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+:: Day-2-minigame-3 {"position":"1100,1800","size":"100,100"}
+<span class="computer-text">“They say the past never existed, and I’m grateful I can’t remember it.”</span>
+
+[[Approve|Wrong]]
+[[Censor|Right]]
+
+
+:: Day-2-minigame-4 {"position":"1100,1900","size":"100,100"}
+<span class="computer-text">“I recite the Party slogans every hour. It keeps my mind clean.”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+:: Day-2-minigame-5 {"position":"1100,2000","size":"100,100"}
+<span class="computer-text">“The fewer thoughts I have, the clearer my mind becomes.”</span>
+
+[[Approve|Wrong]]
+[[Censor|Right]]
+
+
+:: Day-2-minigame-6 {"position":"1100,2100","size":"100,100"}
+<span class="computer-text">“I dreamt of a field and a girl. I reported it immediately.”</span>
+
+[[Approve|Wrong]]
+[[Censor|Right]]
+
+
+:: Day-2-minigame-7 {"position":"1100,2200","size":"100,100"}
+<span class="computer-text">“My coworker comrade misspoke today. I reported him immediately. Thoughtcrime must be punished.”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+:: Day-2-minigame-8 {"position":"1100,2300","size":"100,100"}
+<span class="computer-text">“Sometimes I see faces in the telescreen static. They smile at me. I think that means I’m doing well.”</span>
+
+[[Approve|Wrong]]
+[[Censor|Right]]
+
+
+:: Day-2-minigame-9 {"position":"1100,2400","size":"100,100"}
+<span class="computer-text">“My memories no longer distract me. The Party has helped me forget.”</span>
+
+[[Approve|Wrong]]
+[[Censor|Right]]
+
+
+:: Ending {"position":"700,3000","size":"100,100"}
+Humans cannot learn. 
+And that is why the Party wins.
+
+You have completed Day 2. Your paycheque is 6 tickets.
+
+<<set $money += 6>>
+
+
+:: MINIGAME {"position":"700,1500","size":"100,100"}
+You're sitting in the <span class="b-text">hard chair</span> before the screen when you see a <span class="b-text">short blurb</span> at the top of your screen.
+
+<span class="computer-text">Today's list of topics to censor:
+ - Any delusions and hallucinations.
+ - Envy is unbecoming of a Party Member</span>
+ 
+ [[Do not forget this.|Day-2-minigame-1]]
+ 
+ <<set $correctMessages = [
+  "The alignment holds. You saw it clearly.",
+  "The pattern responds — nothing out of place.",
+  "A clean decision. The static fades.",
+  "The system hums, uninterrupted.",
+  "Something unseen tilts its head in approval.",
+  "You walked the line, and the line held.",
+  "The pulse matches. Continue forward.",
+  "Even the dust agreed with that one.",
+  "The lights didn’t flicker. That’s a good sign.",
+  "You made the choice the air was expecting."
+]>>
+
+<<set $wrongMessages = [
+  "The rhythm stuttered. Something is off.",
+  "It slipped — the answer wasn’t right.",
+  "A quiet resistance presses against the edges.",
+  "The echo distorted. It noticed.",
+  "A ripple spreads from the misstep.",
+  "That turn wasn't marked. Now it is.",
+  "The signal wavered when you touched it.",
+  "That choice left a mark behind.",
+  "A crack formed beneath the silence.",
+  "It tilted away. The path resists you now."
+]>>
+
+
+
+:: MINIGAME COMPLETE {"position":"700,1600","size":"100,100"}
+This is after the minigame!
+
+<<if $path is 0>>
+    <<goto "2.7.1P">>
+<<elseif $path is 1>>
+    <<goto "2.6.1S">>
+<<else>>
+    <<goto "2.5.1F">>
+<</if>>
+
+
+:: PRE-TRAM DECISION {"position":"700,1100","size":"100,100"}
+Alright the tram is <span class="b-text">up and running.</span> All aboard! (Driver)
+
+[[>>>|TRAM DECISION]]
+
+
+
+
+:: Right {"position":"1200,1400","size":"100,100"}
+<<set $message = $correctMessages[random(0, $correctMessages.length - 1)]>><p><<=$message>></p><<set $numCorrect += 1>>
+Correct: <<= $numCorrect>>
+Wrong: <<= $numWrong>>
+[[Next question|bridge]]
+
+
+:: TRAM DECISION {"position":"700,1200","size":"100,100"}
+Get on the tram?
+[[Yes|2.7]]
+<span class="grayed-out">No</span>
+
+
+:: Wrong {"position":"1100,1400","size":"100,100"}
+<<set $message = $wrongMessages[random(0, $wrongMessages.length - 1)]>><p><<=$message>></p><<set $numWrong += 1>>
+Correct: <<= $numCorrect>>
+Wrong: <<= $numWrong>>
+[[Next question|bridge]]
+
+
+:: bridge {"position":"1000,1400","size":"100,100"}
+<<set $currentQuestion += 1>>
+<<set $nextQuestionName = "Day-2-minigame-" + $currentQuestion>>
+<<goto $nextQuestionName>>
+
+
+:: StoryScript [script]
+$(document).on(':passagerender', function (ev) {
+    if (!$('#inventory-button').length) {
+        $('<button id="inventory-button">Inventory</button>')
+            .css({
+                position: 'fixed',
+                top: '20px',
+                right: '20px',
+                zIndex: 1000
+            })
+            .click(() => {
+          		const currentPassage = passage();
+
+                if (currentPassage !== 'Inventory') {
+                    State.variables._returnTo = currentPassage;
+                    console.log('Set returnTo:', currentPassage);
+                }
+          
+                Engine.play('Inventory');
+            })
+            .appendTo(document.body);
+    }
+});
+
+
+$(document).on(':passagerender', function (ev) {
+    // If the #money element doesn't exist, create it
+    if (!$('#money').length) {
+        $('<div id="money">Money: 0</div>')
+            .css({
+                position: 'fixed',
+                top: '100px',
+                right: '20px',
+                zIndex: 1000
+            })
+            .appendTo(document.body);
+    }
+
+    // Always update the money text
+    $('#money').text(`Tickets: ${State.variables.money}`);
+});
+
+$(document).on(':passagerender', function (ev) {
+    // If the #money element doesn't exist, create it
+    if (!$('#date').length) {
+        $('<div id="date">.</div>')
+            .css({
+                position: 'fixed',
+                bottom: '20px',
+                right: '20px',
+                zIndex: 1000
+            })
+            .appendTo(document.body);
+    }
+
+    // Always update the money text
+    $('#date').text(`${State.variables.date}`);
+});
+
+window.removeFromList = function (list, itemToRemove) {
+  if (State.history.length > 1) {
+    const prev = State.history[State.history.length - 2].title;
+    
+    if (prev !== "Inventory") {
+          return list.filter(item => item !== itemToRemove);
+    }
+  }
+  return list
+};
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body { 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#passages {
+  width: 100vh;
+  height: 100vh;
+  justify-content: right;
+  align-items: right;
+  height: 100vh;
+}
+
+.passage {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+  padding: 2em;
+  border-radius: 15px;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  font-size: 1.2em;
+}
+
+#inventory-button {
+    padding: 10px 15px;
+    font-size: 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#inventory-button:hover {
+    background-color: #444;
+}
+
+#money {
+  padding: 10px 15px;
+  font-size: 25px;
+  background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#date {
+  padding: 10px 15px;
+  font-size: 25px;
+  background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.fancy-button {
+  background-color: #fa2111;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fancy-button:hover {
+  background-color: #d4180b;
+}
+
+button {
+    background-color: #fa2111;
+    color: white;             
+    border: none;          
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius:5px;       
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4180b; /* darker green on hover */
+}
+
+.computer-text {
+  color: #5960ff; 
+  font-weight: bold; 
+  text-shadow: 0 0 10px #1b23fa, 0 0 16px #1b23fa;
+}
+
+
+.party-text {
+  font-family: 'Work Sans', sans-serif;
+  color: #8693eb;
+}
+
+.party-bold {
+  font-weight: bold;
+  color: #b8bff5;
+}
+
+.individual-text {
+  font-family: 'Work Sans', sans-serif;
+  color: #ff5e6b;
+  font-weight: italic;
+}
+
+.narrator-horror-text {
+  font-family: 'Frijole', sans-serif;
+  color: rgb(189, 9, 21);
+}
+
+.b-text {
+  color: #fa2111;
+}
+
+/* Change normal link color */
+a.link-internal {
+    color: #fa2111;
+    font-weight: bold;
+}
+
+/* Change hover color */
+a.link-internal:hover {
+    color: #d4180b;
+  	font-weight: bold;
+}
+
+.grayed-out {
+  color: #999;
+  opacity: 0.25;
+}

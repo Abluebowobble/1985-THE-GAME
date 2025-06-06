@@ -1,0 +1,1214 @@
+:: StoryTitle
+1985 Day 3
+
+
+:: StoryData
+{
+  "ifid": "63D60AE0-5A8B-43D0-9A11-4270A2AEB556",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start-1",
+  "zoom": 0.3
+}
+
+
+:: Day-1-1 {"position":"1100,100","size":"100,100"}
+You are inside your victory mansion flat.
+
+<span class="party-text">
+"Good Morning party members! Long live Big Brother!
+Hey 8309 <<=$name>>, wake up! Yes, <span class="party-bold">you</span>, it’s time for Physical Jerks. I want to see you moving now!"
+</span>
+Wake up?
+[[Yes|Day-1-2]]
+[[No|Day-1-3]]
+
+<<set $date = "Morning, Autumn 1997?">>
+
+
+:: Day-1-10-2 {"position":"1100,1300","size":"100,100"}
+Your shoulder aches - you stretch your arms.
+
+The canteen is filled with conversations about the party's latest achievement in the shoe industry. You notice a slight breeze from the door behind you. It tickles your toes.
+
+[[Go pick up your food.|Day-1-11]]
+
+
+:: Day-1-11 {"position":"1100,1400","size":"100,100"}
+You hold the tray with two hands, scared of dropping your bowl of soup and victory coffee.
+
+><span class="party-text">Over here, comrade!</span>
+
+
+
+:: Day-1-2 {"position":"1100,200","size":"100,100"}
+You leave your room and do your physical jerks. The telescreen's light pierces through the darkness of your room.
+
+Your muscles ache from morning stiffness.
+
+You complete the Physical Jerks, though you may have pulled a muscle.
+
+[[New objective: Use the tram to reach the Ministry of Truth|Day-1-4]]
+<<set $tele = 0>>
+
+
+:: Day-1-3 {"position":"1300,100","size":"100,100"}
+You wake up [[anyway|Day-1-2]]
+
+
+:: Day-1-4 {"position":"1100,300","size":"100,100"}
+Your flat feels dusty and gray. The [[telescreen]] chatters in the background. 
+ 
+Your [[bathroom]] lies adjacent to the telescreen. The [[kitchen]] is on the other side of the room.
+ 
+The [[door|Day-1-5]] stands in front of you.
+
+
+:: Day-1-5 {"position":"1100,400","size":"100,100"}
+<<if $tele === 0>> 
+The tram's horn bleats outside your building.
+    
+You better hurry. You <span class="b-text">can't</span> be late.
+<</if>>
+The station is filled with people. 
+
+You squeeze your way through the crowd. 
+
+You enter the [[tram]].
+
+
+
+
+:: Day-1-6 {"position":"1100,800","size":"100,100"}
+You are now at your department at Ministry of Truth.
+
+A large poster of Big Brother looms over the entrance. 
+
+<span class="b-text">Black birds</span> caw while sitting on the edge of the window to your left.
+
+[[Enter the building.|Day-1-7]]
+
+
+:: Day-1-7 {"position":"1100,900","size":"100,100"}
+You see a woman with pale white skin and a long smile. Her sunken eyes lock with yours, and your body feels stiff. 
+
+She walks up to you with a bounce in her step.
+
+<span class="party-text">"Hello! You’re the new comrade, right?
+
+I’m Fiona, your supervisor. Welcome to the <span class="party-bold">Intranet Department: Netdep!</span>
+
+We’re a small team, just the three of us. Only a few comrades are cleared to manage the Oceania intranet, so it’s quite the honour.
+
+But don’t worry, we still do important work. Even a small department can help carry out <span class="party-bold">the glory of Big Brother!</span></span>
+
+[[Your cubicle is #3, down the hall.|Day-1-8]]
+
+
+
+:: Day-1-8 {"position":"1100,1000","size":"100,100"}
+Your eyes scan the small room.
+
+The silence in the air is thick. The quiet hum of the heater fills the room. Your breath feels <span class="b-text">deafening.</span>
+
+The only thing louder is the last coworker who is sitting in their cubicle where you can hear muffled clacking. 
+
+You give Fiona a polite smile before you [[make your way to your cubicle.|Day-1-9]]
+
+
+:: Day-1-9 {"position":"1100,1100","size":"100,100"}
+The walls of the cubicle are paper thin. 
+
+In front of you is a glowing box sitting on top of a table. The box illuminates the cubicle with its <span class="computer-text">cold, blue light.</span>
+
+>This is your computer. Your job is to censor any <span class="b-text">thoughtcrime</span> on the intranet message boards.
+
+You are given a list of topics to censor. Censor any and all 
+
+On the screen, you see a list of messages. 
+
+[[Begin work|Day-1-minigame-0]]<<set $correctMessages = [
+  "Correct. Your judgment serves the Party well.",
+  "Efficient and precise. The Ministry is pleased.",
+  "Well done. Thoughtcrime averted.",
+  "Your actions maintain ideological purity.",
+  "The Party commends your unwavering clarity.",
+  "Excellent work. Misinformation denied, truth preserved.",
+  "Your work contributes to a cleaner, safer Oceania.",
+  "The signal has been sanitized correctly. Proceed.",
+  "Good eye, comrade. Nothing slips past you.",
+  "Your loyalty is evident in your choices. Big Brother approves."
+]>><<set $wrongMessages = [
+  "Incorrect. The Party expected better.",
+  "You let impurity through. Recalibrate your focus.",
+  "A lapse in judgment. Truth has been compromised.",
+  "Your error has been recorded. Reflection is advised.",
+  "This mistake weakens the signal. Do not falter again.",
+  "Misinformation slipped past you. Watch more carefully.",
+  "Your choices reflect uncertainty. Correct that.",
+  "Deviation from doctrine is unacceptable.",
+  "Poor performance undermines the Ministry's effort.",
+  "Big Brother is watching. This will be noted."
+]>>
+
+
+:: Day-1-minigame-0 {"position":"1225,1100","size":"100,100"}
+
+
+
+:: Day-3-1-F {"position":"2550,175","size":"100,100"}
+You wake up to the sight of your decrepid abode once again.
+
+Today is your break day. 
+
+You can head to Leon’s address and finish his task.
+
+Time to leave your [[home|Day-3-2-F]].
+
+<<set $date = "Morning, March 12, 1992?">>
+
+
+:: Day-3-1-P {"position":"2200,175","size":"100,100"}
+You wake up to the sight of your cozy abode once again.
+
+Today is your break day. 
+
+But you’re determined to serve Big Brother. So, you decide to go to work.
+
+Time to leave your [[home|Day-3-2-P]].
+
+<<set $date = "Morning, 1992?">>
+
+
+:: Day-3-1-S {"position":"2375,175","size":"100,100"}
+You wake up to the sight of your dusty abode once again.
+
+Today is your break day. 
+
+But you wouldn’t dare commit ownlife. So, you decide to go to work.
+
+Time to leave your [[home|Day-3-2-S]].
+
+<<set $date = "Morning, Spring 1992?">>
+
+
+:: Day-3-10-P {"position":"2200,1525","size":"100,100"}
+You see that Fiona hasn't noticed your discovery yet.
+
+Make your choice.
+
+[[Report Leon.|Day-3-11-P]]
+
+[[Hide the note.|Day-3-10-P-Hide]]
+
+
+
+
+:: Day-3-10-P-Hide {"position":"2100,1525","size":"100,100"}
+<span class="party-text">"I guess Comrade Leon is goodthinkful to Big Brother."
+"I must have misjudged him."</span.
+
+
+Fiona’s smile fades, just slightly. She turns and walks away. Still smiling, but it doesn’t quite reach her eyes.
+
+You continue the day as [[normal|Day-3-4-S]]. Although a sense of unease follows you.
+
+<<set $path to 1>>
+
+
+:: Day-3-11-P {"position":"2200,1675","size":"100,100"}
+You lightly tap on Fiona's shoulder. 
+
+<span class="party-text">"Did you find something newbie?"</span>
+
+Without saying anything, you pass Leon's note.
+
+<span class="party-text"> "I… I can’t believe it."
+
+"So he was twisting Big Brother’s love."
+
+"Thank you, Newbie. You did the right thing. Some wounds can’t be seen… but they still spread. We can’t allow that."
+
+"Go on home for now. You’ve done your part."
+
+"The Thought Police will take care of the rest."
+
+"Big Brother will be safe again."</span>
+
+Fiona leaves you with a warm smile.
+
+You follow Fiona's instructions and return [[home|Day-3-Finale-0]].
+
+
+:: Day-3-2-F {"position":"2550,325","size":"100,100"}
+There is a patrol outside. You realise, perhaps you could wash your hands of this entire affair.
+
+That perhaps you still loved Big Brother, that your actions were a little too hasty
+
+Big Brother would accept you back with open arms like the generous man he is right?
+
+[[Report Leon?|Day-3-2-F-Report]]
+
+[[What a ridiculous thought.|Day-3-3-F]]
+
+
+:: Day-3-2-F-Report {"position":"2650,325","size":"100,100"}
+Under the spreading chestnut tree. I sold you and you sold me.
+
+<span class="narrator-horror-text">But [[deadmen|Day-3-Finale-0]] make no choices.</span>
+
+<<set $path to 1>>
+
+
+:: Day-3-2-P {"position":"2200,325","size":"100,100"}
+There is a patrol outside. You feel the unparalleled safety of Oceania.
+
+Where would you like to go?
+
+<span class="b-text">[[Ministry of Truth, NetDep|Day-3-3-P]]
+[[Community Centre|Day-3-2-Reject]]
+ ???
+ ???
+</span>
+
+
+:: Day-3-2-Reject {"position":"1900,500","size":"100,100"}
+You shouldn't go here right now.
+
+You decide to [[rethink|previous()]] your decision.
+
+
+:: Day-3-2-S {"position":"2375,325","size":"100,100"}
+There is a patrol outside. You become slightly more on guard.
+
+Where would you like to go?
+
+<span class="b-text">[[Ministry of Truth, NetDep|Day-3-3-S]]
+[[Community Centre|Day-3-2-Reject]]
+ ???
+ ???
+</span>
+
+
+:: Day-3-3-F {"position":"2550,475","size":"100,100"}
+Ridiculous thoughts. You died a long time ago, even Big Brother can’t bring back the dead.
+
+<span class="b-text">[[Ministry of Truth, NetDep|Day-3-2-Reject]]
+[[Community Centre|Day-3-2-Reject]]
+[[The Address|Day-3-4-F]]
+ ???
+</span>
+
+
+
+:: Day-3-3-P {"position":"2200,475","size":"100,100"}
+You are now at the NetDep.
+
+No matter how many times you see Big Brother loom over the entrance, you always feel a burst of energy. 
+
+You can hardly contain your excitment at the thought of protecting Big Brother.
+
+[[Enter the building.|Day-3-4-P]]
+
+
+:: Day-3-3-S {"position":"2375,475","size":"100,100"}
+You are now at the NetDep.
+
+The same large poster of Big Brother looms over the entrance. 
+
+You can't help but feel slightly deflated at the idea of working again.
+
+[[Enter the building.|Day-3-4-S]]
+
+
+:: Day-3-4-F {"position":"2550,625","size":"100,100"}
+You walk into a dusty, old, and cramped building. A musty smell slams into your face.
+
+It appears to be a store of some kind. The aisles of the store are empty, like most stores in Oceania. This store appears to have been from before the revolution. 
+
+Something is coming from the backroom.
+
+<span class="jerome-text">"Welcome! Welcome! Welcome, me ol’ china! ‘Ere to fence, are ya?"
+
+"Strike a light! What's a boffin doin’ down ‘ere?"</span>
+
+<<link '"Uhm… Hello? "'>> 
+    <<goto "Day-3-5-F">>
+<</link>>
+
+
+
+
+:: Day-3-4-P {"position":"2200,625","size":"100,100"}
+You arrive in the office and see Fiona pacing around visibly distressed.
+
+Her party overalls seem ruffled and her face carries an unusual frown. It seems as if the entire world was falling apart.
+
+<span class="party-text">"Newbie~ come here for a moment, would you?"</span>
+
+<<link '"Fiona’s calling me?"'>> 
+    <<goto "Day-3-5-P">>
+<</link>>
+
+
+
+
+:: Day-3-4-S {"position":"2375,625","size":"100,100"}
+Stumbling to your cubicle again. You press the power button on your state-of-the-art computer.
+
+The unconciousness is slowly creeping in.
+
+[[Begin work|Day-3-minigame-0]]<<set $correctMessages = [
+  "Correct. Your judgment serves the Party well.",
+  "Efficient and precise. The Ministry is pleased.",
+  "Well done. Thoughtcrime averted.",
+  "Your actions maintain ideological purity.",
+  "The Party commends your unwavering clarity.",
+  "Excellent work. Misinformation denied, truth preserved.",
+  "Your work contributes to a cleaner, safer Oceania.",
+  "The signal has been sanitized correctly. Proceed.",
+  "Good eye, comrade. Nothing slips past you.",
+  "Your loyalty is evident in your choices. Big Brother approves."
+]>><<set $wrongMessages = [
+  "Incorrect. The Party expected better.",
+  "You let impurity through. Recalibrate your focus.",
+  "A lapse in judgment. Truth has been compromised.",
+  "Your error has been recorded. Reflection is advised.",
+  "This mistake weakens the signal. Do not falter again.",
+  "Misinformation slipped past you. Watch more carefully.",
+  "Your choices reflect uncertainty. Correct that.",
+  "Deviation from doctrine is unacceptable.",
+  "Poor performance undermines the Ministry's effort.",
+  "Big Brother is watching. This will be noted."
+]>>
+
+
+:: Day-3-5-F {"position":"2550,775","size":"100,100"}
+<span class="jerome-text">"Name’s Jeronimo,  fencer ‘round these parts, know wot I mean? (Jeronimo)"
+
+"If ya need anythin’ sorted, Jeronimo’s the bloke to see!"</span>
+
+You feel momentarily stunned by the unusual behaviour of Jeronimo.
+Upon further inspection, Jeronimo appears to be a standard prole clad in working attire and sporting a mindless attitude.
+Proles and animals are free after all.
+
+<span class="jerome-text">"An’ you are…?"</span>
+
+<<link '"Oh uhm.. Oh yes!"'>> 
+    <<goto "Day-3-6-F">>
+<</link>>
+
+
+
+
+:: Day-3-5-P {"position":"2200,775","size":"100,100"}
+<span class="party-text">"Say… have you noticed anything strange lately?"
+
+"Maybe about one of our comrades?"</span>
+
+<span class="individual-thought-text">Fiona is right… there is one person that seems suspicious</span>
+
+<<link '"Are you talking about comrade Leon?"'>> 
+    <<goto "Day-3-6-P">>
+<</link>>
+
+
+
+
+:: Day-3-5-S {"position":"2375,775","size":"100,100"}
+You are overcome with boredom. Perhaps, this is preferable though.
+
+Your consciousness fully fades and you become another cog in the machine.
+
+You wonder when you will regain consciousness this time.
+
+[[Wake up|Day-3-Finale-0]]
+
+
+:: Day-3-6-F {"position":"2550,925","size":"100,100"}
+<<link '"I’m here to pick up a basket of baked chestnut cookies."'>> 
+    <<goto "Day-3-7-F">>
+<</link>> 
+
+
+
+
+:: Day-3-6-P {"position":"2200,925","size":"100,100"}
+<span class="party-text">"Mmm… he’s been spending a lot of time by himself, hasn’t he?" 
+
+"A little too much ownlife for someone who's… committed."</span>
+
+<<link '"Are you saying he might be…"'>> 
+    <<goto "Day-3-7-P">>
+<</link>>
+
+
+
+:: Day-3-7-F {"position":"2550,1075","size":"100,100"}
+<span class="jerome-text">"Righ back ‘ere, some funny-lookin’ bloke dropped this off."
+
+"Must’ve been one o’ your mates, right?"<</span>> 
+
+You acquire the cookies that Leon requested.
+
+<<link '"Ah, thanks."'>> 
+    <<goto "Day-3-8-F">>
+<</link>> 
+
+
+
+
+:: Day-3-7-P {"position":"2200,1075","size":"100,100"}
+<span class="party-text">"Oh, I’d never want to jump to conclusions. That would ungood, right?"</span>
+
+<<link '"What are you suggesting we do then?"'>> 
+    <<goto "Day-3-8-P">>
+<</link>>
+
+
+
+
+:: Day-3-8-F {"position":"2550,1225","size":"100,100"}
+<span class="jerome-text">I’ve got some new wares ‘ere too. Come ‘ave a butcher’s. They might be handy for ya.</span>
+
+Perhaps these items could help you.
+
+Would you like to buy:
+   [[Garden Rake|Day-3-8-F-purchaseGR]] for 6 tickets.
+   [[Shaving Razor Blade|Day-3-8-F-purchaseSR]] for 8 tickets.
+   [[Bag O Rocks|Day-3-8-F-purchaseBOR]] for 10 tickets.
+   
+<<link '"I\'m done."'>> 
+    <<goto "Day-3-9-F">>
+<</link>> 
+
+<<script>>
+    	
+      if (State.history.length > 1) {
+          const prev = State.history[State.history.length - 2].title;
+          if (prev !== "Inventory") {
+              State.variables.money += 20
+          }
+      }
+ <</script>>
+
+
+:: Day-3-8-F-purchaseBOR {"position":"2700,1300","size":"100,100"}
+<<if $money >= 10>>
+	You successfully bought the Bag o Rocks.
+    
+    [[Return|Day-3-8-F]] to Geronimo.
+    
+    <<script>>
+    	
+      if (State.history.length > 1) {
+          const prev = State.history[State.history.length - 2].title;
+          if (prev !== "Inventory") {
+              State.variables.money -= 10
+          }
+      }
+
+        if (State.history.length > 1) {
+            const prev = State.history[State.history.length - 2].title;
+            if (prev !== "Inventory") {
+                State.variables.inventory.push("BOR")
+            }
+        }
+	<</script>>
+    
+<<else>>
+
+    You do not have enough money
+    
+    [[Return|Day-3-8-F]]to Geronimo.
+
+<</if>>
+
+
+:: Day-3-8-F-purchaseGR {"position":"2700,1100","size":"100,100"}
+<<if $money >= 4>>
+	You successfully bought the garden rake.
+    
+    [[Return|Day-3-8-F]] to Geronimo.
+    
+    <<script>>
+    	
+      if (State.history.length > 1) {
+          const prev = State.history[State.history.length - 2].title;
+          if (prev !== "Inventory") {
+              State.variables.money -= 6
+          }
+      }
+
+        if (State.history.length > 1) {
+            const prev = State.history[State.history.length - 2].title;
+            if (prev !== "Inventory") {
+                State.variables.inventory.push("GR")
+            }
+        }
+	<</script>>
+    
+<<else>>
+
+    You do not have enough money.
+    
+    [[Return|Day-3-8-F]]to Geronimo.
+
+<</if>>
+
+
+:: Day-3-8-F-purchaseSR {"position":"2700,1200","size":"100,100"}
+<<if $money >= 8>>
+	You successfully bought the shaving razor.
+    
+    [[Return|Day-3-8-F]] to Geronimo.
+    
+    <<script>>
+    	
+      if (State.history.length > 1) {
+          const prev = State.history[State.history.length - 2].title;
+          if (prev !== "Inventory") {
+              State.variables.money -= 8
+          }
+      }
+
+        if (State.history.length > 1) {
+            const prev = State.history[State.history.length - 2].title;
+            if (prev !== "Inventory") {
+                State.variables.inventory.push("SR")
+            }
+        }
+	<</script>>
+    
+<<else>>
+
+    You do not have enough money.
+    
+    [[Return|Day-3-8-F]]to Geronimo.
+
+<</if>>
+
+
+:: Day-3-8-P {"position":"2200,1225","size":"100,100"}
+<span class="party-text">"But he’s not here again today. And it might be wise to check. Just in case."</span>
+
+<<link '"Right!"'>> 
+    <<goto "Day-3-9-P">>
+<</link>>
+
+
+:: Day-3-9-F {"position":"2550,1375","size":"100,100"}
+<span class="jerome-text">"Right then, see ya round!"</span>
+
+You step out of the shop, still not quite able to digest Jeronimo’s behaviour
+
+However, you won’t make it to the community centre in time. 
+
+You decide to return [[home|Day-3-Finale-0]] instead.
+
+
+:: Day-3-9-P {"position":"2200,1375","size":"100,100"}
+With Fiona, you enter Leon's Cubicle.
+
+Similar to yours, Leon's cubicle contains the sterotypical sterile design of the Party. Above, a clinical white light beats down on you and Fiona.
+
+Fiona has immediately gone to search Leon's table drawers. You decide to investigate Leon's work space.
+
+[[Search the chair|Day-3-search-0]]
+
+[[Search the keyboard|Day-3-search-1]]
+
+[[Search the desktop|Day-3-search-2]]
+
+
+
+
+:: Day-3-Finale-0 {"position":"2375,925","size":"100,100"}
+You feel alive again. 
+
+Looking around, you see the familiar sight of your home.
+
+A wave of exhaustion immediately washes over you. You hear your knuckles crack at least a few times.
+
+Perhaps you should head straight to <span class="party-text">[[bed|Day-3-Finale-1]]</span>.
+
+<<set $date = "Evening, ???">>
+
+
+:: Day-3-Finale-1 {"position":"2375,1075","size":"100,100"}
+You hear a something fragile breaking. You think it's your window.
+
+<<link '"Huh? What is happening!"'>> 
+    <<goto "Day-3-Finale-2">>
+<</link>>
+
+
+
+
+
+
+
+:: Day-3-Finale-10 {"position":"2375,2425","size":"100,100"}
+<span class = "party-text"> "Oh, looks like the body died" 
+
+"Aww… that’s such a shame. I really thought you’d come around! But some people just won’t feel Big Brother, no matter how hard we help them."
+
+"He’ll fix it. Eventually. He always does."
+
+"He’s always watching, Always loving, Always correcting. Isn’t that just the most comforting thought in the world?" 
+
+"Thank [[Big Brother|Day-3-Finale-11]]."</span>
+
+
+:: Day-3-Finale-11 {"position":"2375,2575","size":"100,100"}
+<span class = "narrator-horror-text">We are the dead.
+
+Big Brother exists. He sees you. You see me. 
+
+War is Peace.
+Freedom is Slavery.
+Ignorance is Strength.
+
+Silence is Volume.
+
+[[Your End.|Start-1]]</span>
+
+
+
+
+:: Day-3-Finale-2 {"position":"2375,1225","size":"100,100"}
+You try to resist, with whatever you have.
+
+<span class="party-text">"Hush now, you’ve betrayed Big Brother for the last time."
+
+"Your education was incomplete, we need to address it."
+</span>
+
+Your world fades to [[black|Day-3-Finale-3]].
+
+
+:: Day-3-Finale-3 {"position":"2375,1375","size":"100,100"}
+<<link '"I… feel dizzy. Where am I?"'>> 
+    <<goto "Day-3-Finale-4">>
+<</link>>
+
+
+
+
+:: Day-3-Finale-4 {"position":"2375,1525","size":"100,100"}
+<span class = "party-text">"Ministry of Love. Thought you’d enjoy the tour."
+
+"You’re finally awake, sleepyhead~! We were getting worried! But don’t worry, you’re in very good hands now, Comrade."</span>
+
+<<link '"Leon? Fiona? What? Where am I? Why are you here?"'>> 
+    <<goto "Day-3-Finale-5">>
+<</link>>
+
+
+
+
+:: Day-3-Finale-5 {"position":"2375,1675","size":"100,100"}
+<span class = "party-text">"This? This is just a little check-up. A friendly little tune-up for your soul! You’ve been having some bad thoughts lately, haven’t you?" 
+
+"Anti-Brother thoughts. Disloyalty. Doubt. Disgusting."
+
+"Tsk-tsk~! You know what they say: Doubt leads to thoughtcrime, and thoughtcrime makes Big Brother so sad. But don’t worry! We’re gonna help you feel better in no time!"</span>
+
+<<link '"What\’s that in Leon\’s hands? Is that a needle?"'>> 
+    <<goto "Day-3-Finale-6">>
+<</link>>
+
+
+
+
+
+:: Day-3-Finale-6 {"position":"2375,1825","size":"100,100"}
+<<link '"W-w-w-ait! What did I do wrong? I love Big Brother! I would never betray him. A-a-and if I did I didn’t mean it! I—I love Big Brother! I really do!"'>> 
+    <<goto "Day-3-Finale-7">>
+<</link>>
+
+
+:: Day-3-Finale-7 {"position":"2375,1975","size":"100,100"}
+<span class = "party-text">"That’s adorable. But we both know that’s not true, don’t we? Real love doesn’t hide behind </span><span class = "party-bold">screens</span><span class = "party-text">. Real love is loud and bright and true! Just like mine~"
+
+"You really thought you could hide your mockery from him? That’s so cute! But Big Brother sees everything. Even </span><span class = "party-bold">you</span><span class = "party-text">."
+
+Comrade Leon, use it.</span>
+
+<<link '"ARGHHHHHHAHAHAHAHHAHHHhahhhaaa"'>> 
+    <<goto "Day-3-Finale-8">>
+<</link>>
+
+
+
+
+:: Day-3-Finale-8 {"position":"2375,2125","size":"100,100"}
+<<link '"Pl-please no more"'>> 
+    <<goto "Day-3-Finale-9">>
+<</link>>
+
+
+
+
+:: Day-3-Finale-9 {"position":"2375,2275","size":"100,100"}
+<span class = "party-bold">"You will love Big Brother. 
+All of you will love Big Brother. 
+He sees all."
+
+"Injecting more."</span>
+
+<<link '"AHHHHHAAHAAAAAAAA"'>> 
+    <<goto "Day-3-Finale-10">>
+<</link>>
+
+
+:: Day-3-minigame-0 {"position":"3250,800","size":"100,100"}
+You see a familiar short blurb at the top of your screen.
+
+Your list of topics to censor:
+
+<span class="computer-text">- Malreports of statistics.
+- Unbecoming behaviour of a Party Member.
+- Any delusions and hallucinations.</span>
+ 
+ [[Do not forget this.|Day-3-minigame-1]]
+
+
+:: Day-3-minigame-1 {"position":"3050,800","size":"100,100"}
+<<set $currentQuestion = 1>><<set $numCorrect = 0>><<set $numWrong = 0>>
+ Text 1:
+ <span class="computer-text">“War is peace. Freedom is slavery. Ignorance is strength. I recite this every morning. It brings me comfort.”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+:: Day-3-minigame-2 {"position":"3050,900","size":"100,100"}
+<span class="computer-text">“Doubleplusgood news today! My workplace hit 110% of the production quota thanks to Party inspiration!"</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+
+:: Day-3-minigame-3 {"position":"3050,1000","size":"100,100"}
+<span class="computer-text">“The prolefeed is actually pretty good.”</span>
+
+[[Approve|Wrong]]
+[[Censor|Right]]
+
+
+:: Day-3-minigame-4 {"position":"3050,1100","size":"100,100"}
+<span class="computer-text">“Big Brother’s eyes are always watching. That thought makes me feel safe.”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+:: Day-3-minigame-5 {"position":"3050,1200","size":"100,100"}
+<span class="computer-text">“How can we have over 100% production? That’s mathematically impossible.”</span>
+
+[[Approve|Wrong]]
+[[Censor|Right]]
+
+
+
+
+:: Day-3-minigame-6 {"position":"3050,1300","size":"100,100"}
+<span class="computer-text">“My neighbour smiled too much this morning. It looked like ownlife!”</span>
+
+[[Approve|Right]]
+[[Censor|Wrong]]
+
+
+
+:: Day-3-minigame-7 {"position":"3050,1400","size":"100,100"}
+[[?|Day-3-5-S]]
+
+
+
+
+:: Day-3-search-0 {"position":"1975,1275","size":"100,100"}
+You survey Leon's chair. It's made with doubleplusgood grade materials and optmized for sitting by the top scientists of the Party
+
+Unfortunatly, you find nothing.
+
+[[You continue searching.|Day-3-9-P]]
+
+
+:: Day-3-search-1 {"position":"1975,1375","size":"100,100"}
+You survey Leon's keyboard. Picking it up, you see a piece of paper fall from below. 
+
+You read ####### off the paper. 
+
+Utter shock creeps onto your face from what is written on it.
+
+[[You must decide what to do now.|Day-3-10-P]]
+
+
+:: Day-3-search-2 {"position":"1975,1475","size":"100,100"}
+You survey Leon's desktop. Despite your rudimentary technical skills, you can tell nothing has been tampered with.
+
+Unfortunatly, you find nothing.
+
+[[You continue searching.|Day-3-9-P]]
+
+
+:: Inventory {"position":"100,100","size":"100,100"}
+<<if $inventory.length > 0>>Your Inventory:
+<<for _item range $inventory>>
+• <<= _item>>
+<</for>>
+<<else>>Your inventory is empty.
+<</if>>
+<<link "Back">>
+	<<script>>
+    Engine.play(State.variables._returnTo);
+    <</script>>
+<</link>>
+
+
+
+:: Right {"position":"3150,600","size":"100,100"}
+<<set $message = $correctMessages[random(0, $correctMessages.length - 1)]>><p><<=$message>></p><<set $numCorrect += 1>>
+
+Correct: <<= $numCorrect>>
+Wrong: <<= $numWrong>>
+[[Next question|bridge]]
+
+
+:: Start-1 {"position":"600,100","size":"200,200"}
+Welcome player, what’s your name? 
+
+''Name:''
+<<textbox "$name" "">><<set $inventory = []>><<set $money = 0>><<set $date = "">>
+
+<<button "Next">>
+	<<if $name.trim().length > 0>>
+    	<<goto "Start-2">>
+		[[Done|Start-2]]
+	<<else>>
+		You must enter a name first!
+	<</if>>
+<</button>>
+<set $path = 1>
+
+
+:: Start-2 {"position":"600,400","size":"100,100"}
+Hello, <<= $name>>.
+
+[[All roads lead to Ingsoc.|Day-1-1]]
+
+
+:: Wrong {"position":"3050,600","size":"100,100"}
+<<set $message = $wrongMessages[random(0, $wrongMessages.length - 1)]>><p><<=$message>></p><<set $numWrong += 1>>
+Correct: <<= $numCorrect>>
+Wrong: <<= $numWrong>>
+[[Next question|bridge]]
+
+
+:: bathroom {"position":"1300,200","size":"100,100"}
+The wooden floor creaks beneath you as you make your way to the bathroom.
+
+The bathroom light whines weakly. The sink sits on the other side.
+
+Your reflection stares at you.
+
+[[Go back|Day-1-4]]
+
+
+:: bridge {"position":"2950,600","size":"100,100"}
+<<set $currentQuestion += 1>>
+<<set $nextQuestionName = "Day-3-minigame-" + $currentQuestion>>
+<<goto $nextQuestionName>>
+
+
+:: how to twine {"position":"100,200","size":"200,200"}
+The following functions only execute on PASSAGE RENDER.
+
+This means to remove something, you need to make "buy cheese" link to another passage, which says "You bought the cheese" and execute the following functions to add to the inventory and subtract from the money. 
+
+To add/subtract to the money amount:
+
+<<script>>
+if (State.history.length > 1) {
+    const prev = State.history[State.history.length - 2].title;
+    if (prev !== "Inventory") {
+        State.variables.money += 10
+    }
+}
+<</script>>
+
+To add to the inventory:
+
+<<script>>
+if (State.history.length > 1) {
+    const prev = State.history[State.history.length - 2].title;
+    if (prev !== "Inventory") {
+		State.variables.inventory.push("item")
+    }
+}
+<</script>>
+
+To remove:
+<<set $inventory = removeFromList($inventory, "item")>>
+
+
+
+:: kitchen {"position":"1300,300","size":"100,100"}
+The kitchen air is still, heavy with silence.
+
+An empty plate rests in the sink. You see a fly encircling the remains.
+
+You’re not sure if you're hungry, but there's no time, anyway.
+
+The tram won't wait for you.
+
+[[Go back|Day-1-4]]
+
+
+:: telescreen {"position":"1300,400","size":"100,100"}
+<<set $tele += 1>>
+<<if $tele === 1>>
+The telescreen blares loud metallic music.
+
+<span class="party-text">"...400% INCREASE IN THE PRODUCTION AND <em class="party-bold"><u>QUALITY</u></em> SHOES! WOW, COMARADES! HOW <span class="party-bold">WONDERFUL</span> IS OCEANIA! ..."</span>
+
+You look down at your hole-ridden shoes. 
+
+... 
+
+You look back up.
+<<else>>
+Your attention is taken by a loud noise outside.
+
+The tram's horn bleats outside your building.
+    
+You better hurry. You <span class="b-text">can't</span> be late.
+<</if>>
+[[Go back|Day-1-4]]
+
+
+
+:: tram {"position":"1100,600","size":"100,100"}
+Where would you like to go?
+
+[[Ministry of Truth, ???|Day-1-6]]
+<span class="b-text">???
+???
+???
+</span>
+
+
+:: StoryScript [script]
+$(document).on(':passagerender', function (ev) {
+    if (!$('#inventory-button').length) {
+        $('<button id="inventory-button">Inventory</button>')
+            .css({
+                position: 'fixed',
+                top: '20px',
+                right: '20px',
+                zIndex: 1000
+            })
+            .click(() => {
+          		const currentPassage = passage();
+
+                if (currentPassage !== 'Inventory') {
+                    State.variables._returnTo = currentPassage;
+                    console.log('Set returnTo:', currentPassage);
+                }
+          
+                Engine.play('Inventory');
+            })
+            .appendTo(document.body);
+    }
+});
+
+
+$(document).on(':passagerender', function (ev) {
+    // If the #money element doesn't exist, create it
+    if (!$('#money').length) {
+        $('<div id="money">Money: 0</div>')
+            .css({
+                position: 'fixed',
+                top: '100px',
+                right: '20px',
+                zIndex: 1000
+            })
+            .appendTo(document.body);
+    }
+
+    // Always update the money text
+    $('#money').text(`Tickets: ${State.variables.money}`);
+});
+
+$(document).on(':passagerender', function (ev) {
+    // If the #money element doesn't exist, create it
+    if (!$('#date').length) {
+        $('<div id="date">.</div>')
+            .css({
+                position: 'fixed',
+                bottom: '20px',
+                right: '20px',
+                zIndex: 1000
+            })
+            .appendTo(document.body);
+    }
+
+    // Always update the money text
+    $('#date').text(`${State.variables.date}`);
+});
+
+window.removeFromList = function (list, itemToRemove) {
+  if (State.history.length > 1) {
+    const prev = State.history[State.history.length - 2].title;
+    
+    if (prev !== "Inventory") {
+          return list.filter(item => item !== itemToRemove);
+    }
+  }
+  return list
+};
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body { 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#passages {
+  width: 100vh;
+  height: 100vh;
+  justify-content: right;
+  align-items: right;
+  height: 100vh;
+}
+
+.passage {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+  padding: 2em;
+  border-radius: 15px;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  font-size: 1.2em;
+}
+
+#inventory-button {
+    padding: 10px 15px;
+    font-size: 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#inventory-button:hover {
+    background-color: #444;
+}
+
+#money {
+  padding: 10px 15px;
+  font-size: 25px;
+  background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#date {
+  padding: 10px 15px;
+  font-size: 25px;
+  background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.fancy-button {
+  background-color: #fa2111;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fancy-button:hover {
+  background-color: #d4180b;
+}
+
+button {
+    background-color: #fa2111;
+    color: white;             
+    border: none;          
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius:5px;       
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4180b; /* darker green on hover */
+}
+
+.computer-text {
+  color: #5960ff; 
+  font-weight: bold; 
+  text-shadow: 0 0 10px #1b23fa, 0 0 16px #1b23fa;
+}
+
+
+.party-text {
+  font-family: 'Work Sans', sans-serif;
+  color: #8693eb;
+}
+
+.jerome-text {
+  font-family: 'Work Sans', sans-serif;
+  color: #FFBF00;
+}
+
+.party-bold {
+  font-weight: bold;
+  color: #b8bff5;
+}
+
+.individual-thought-text {
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  color: #5167fc;
+}
+
+.narrator-horror-text {
+  font-family: 'Frijole', sans-serif;
+  color: rgb(189, 9, 21);
+}
+
+.b-text {
+  color: #fa2111;
+}
+
+/* Change normal link color */
+a.link-internal {
+    color: #fa2111;
+    font-weight: bold;
+}
+
+/* Change hover color */
+a.link-internal:hover {
+    color: #d4180b;
+  	font-weight: bold;
+}
