@@ -1627,13 +1627,13 @@ Welcome player, what’s your name?
 
 <<button "Next">>
 	<<if $name.trim().length > 0>>
-    	<<goto "2.6.2S">>
-		[[Done|2.6.2S]]
+    	<<goto "Start-2">>
+		[[Done|Start-2]]
 	<<else>>
 		You must enter a name first!
 	<</if>>
 <</button>>
-<<set $path = 0>>
+<<set $path = 1>>
 
 
 :: Start-2 {"position":"800,425","size":"100,100"}
@@ -2110,6 +2110,26 @@ $(document).on(':passagerender', function (ev) {
     }
 });
 
+$(document).on(':passagerender', function () {
+    // Make sure the image container exists
+    if (!$('#corner-image').length) {
+        $('<img id="corner-image">').appendTo('body');
+    }
+
+    // Change the image source depending on $path
+    const path = State.variables.path;
+    let src = '';
+
+    if (path === 0) {
+    src = 'https://i.imgur.com/fkOq2x6.png';
+} else if (path === 1) {
+    src = 'https://i.imgur.com/S2bX1dY.png';
+} else if (path === 2) {
+    src = 'https://i.imgur.com/UZKWe4c.png';
+}
+
+    $('#corner-image').attr('src', src);
+});
 
 $(document).on(':passagerender', function (ev) {
     // If the #money element doesn't exist, create it
@@ -2197,6 +2217,15 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#corner-image {
+    position: fixed;
+    top: 170px;
+    right: 30px;
+    width: 120px;
+    height: auto;
+    z-index: 999;
 }
 
 #inventory-button:hover {
