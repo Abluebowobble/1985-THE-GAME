@@ -979,17 +979,15 @@ Time to leave your [[home|Day-3-2-S]].
 :: Day-3-10-P {"position":"3225,1475","size":"100,100"}
 You see that Fiona hasn't noticed your discovery yet.
 
-Make your choice.
+What will you do?
 
-[[Report Leon.|Day-3-11-P]]
-
-[[Hide the note.|Day-3-10-P-Hide]]
+[[>> Report Leon.|Day-3-11-P]]
+[[>> Hide the note.|Day-3-10-P-Hide]]
 
 
 :: Day-3-10-P-Hide {"position":"3125,1475","size":"100,100"}
 <span class="party-text">"I guess Comrade Leon is goodthinkful to Big Brother."
-"I must have misjudged him."</span.
-
+"I must have misjudged him."</span>
 
 Fiona’s smile fades, just slightly. She turns and walks away. Still smiling, but it doesn’t quite reach her eyes.
 
@@ -1077,7 +1075,13 @@ Where would you like to go?
 
 
 :: Day-3-3-F {"position":"3575,425","size":"100,100"}
-Ridiculous thoughts. You died a long time ago, even Big Brother can’t bring back the dead.
+Ridiculous thoughts. 
+
+You died a long time ago, even Big Brother can’t bring back the dead.
+
+You reach the tram station.
+
+Where would you like to go?
 
 <span class="b-text">[[>> Ministry of Truth, NetDep|Day-3-2-Reject]]
 [[>> Community Centre|Day-3-2-Reject]]
@@ -1116,7 +1120,7 @@ Something is coming from the backroom.
 
 "Strike a light! What's a boffin doin’ down ‘ere?"</span>
 
-<<link '"Uhm… Hello? "'>> 
+<<link '"Uhm… Hello?"'>> 
     <<goto "Day-3-5-F">>
 <</link>>
 
@@ -1169,7 +1173,9 @@ The unconciousness is slowly creeping in.
 "If ya need anythin’ sorted, Jeronimo’s the bloke to see!"</span>
 
 You feel momentarily stunned by the unusual behaviour of Jeronimo.
+
 Upon further inspection, Jeronimo appears to be a standard prole clad in working attire and sporting a mindless attitude.
+
 Proles and animals are free after all.
 
 <span class="npc-text">"An’ you are…?"</span>
@@ -1198,7 +1204,7 @@ Your consciousness fully fades and you become another cog in the machine.
 
 You wonder when you will regain consciousness this time.
 
-[[Wake up|Day-3-Finale-0]]
+[[Wake up.|Day-3-Finale-0]]
 
 
 :: Day-3-6-F {"position":"3575,875","size":"100,100"}
@@ -1218,9 +1224,9 @@ You wonder when you will regain consciousness this time.
 
 
 :: Day-3-7-F {"position":"3575,1025","size":"100,100"}
-<span class="jerome-text">"Righ back ‘ere, some funny-lookin’ bloke dropped this off."
+<span class="npc-text">"Righ back ‘ere, some funny-lookin’ bloke dropped this off."
 
-"Must’ve been one o’ your mates, right?"<</span>> 
+"Must’ve been one o’ your mates, right?"</span>
 
 You acquire the cookies that Leon requested.
 
@@ -1242,10 +1248,14 @@ You acquire the cookies that Leon requested.
 
 Perhaps these items could help you.
 
-Would you like to buy:
-   [[Garden Rake|Day-3-8-F-purchaseGR]] for 6 tickets.
-   [[Shaving Razor Blade|Day-3-8-F-purchaseSR]] for 8 tickets.
-   [[Bag O Rocks|Day-3-8-F-purchaseBOR]] for 10 tickets.
+Would you like to buy
+
+ [[>> Garden Rake|Day-3-8-F-purchaseGR]]
+ 6 tickets.
+ [[>> Shaving Razor Blade|Day-3-8-F-purchaseSR]]
+ 8 tickets.
+ [[>> Bag O Rocks|Day-3-8-F-purchaseBOR]]
+ 10 tickets.
    
 <<link '"I\'m done."'>> 
     <<goto "Day-3-9-F">>
@@ -1263,8 +1273,7 @@ Would you like to buy:
 
 
 :: Day-3-8-F-purchaseBOR {"position":"3725,1250","size":"100,100"}
-<<if $money >= 10>>
-	You successfully bought the Bag o Rocks.
+<<if $money >= 10>>You successfully bought the Bag o Rocks.
     
     [[Return|Day-3-8-F]] to Geronimo.
     
@@ -1285,18 +1294,15 @@ Would you like to buy:
         }
 	<</script>>
     
-<<else>>
-
-    You do not have enough money
+<<else>>You do not have enough money
     
-    [[Return|Day-3-8-F]]to Geronimo.
+    [[Return|Day-3-8-F]] to Geronimo.
 
 <</if>>
 
 
 :: Day-3-8-F-purchaseGR {"position":"3725,1050","size":"100,100"}
-<<if $money >= 4>>
-	You successfully bought the garden rake.
+<<if $money >= 4>>You successfully bought the garden rake.
     
     [[Return|Day-3-8-F]] to Geronimo.
     
@@ -1317,18 +1323,15 @@ Would you like to buy:
         }
 	<</script>>
     
-<<else>>
-
-    You do not have enough money.
+<<else>>You do not have enough money.
     
-    [[Return|Day-3-8-F]]to Geronimo.
+    [[Return|Day-3-8-F]] to Geronimo.
 
 <</if>>
 
 
 :: Day-3-8-F-purchaseSR {"position":"3725,1150","size":"100,100"}
-<<if $money >= 8>>
-	You successfully bought the shaving razor.
+<<if $money >= 8>>You successfully bought the shaving razor.
     
     [[Return|Day-3-8-F]] to Geronimo.
     
@@ -1349,11 +1352,9 @@ Would you like to buy:
         }
 	<</script>>
     
-<<else>>
-
-    You do not have enough money.
+<<else>>You do not have enough money.
     
-    [[Return|Day-3-8-F]]to Geronimo.
+    [[Return|Day-3-8-F]] to Geronimo.
 
 <</if>>
 
@@ -1383,11 +1384,11 @@ Similar to yours, Leon's cubicle contains the sterotypical sterile design of the
 
 Fiona has immediately gone to search Leon's table drawers. You decide to investigate Leon's work space.
 
-[[Search the chair|Day-3-search-0]]
+Where will you search?
 
-[[Search the keyboard|Day-3-search-1]]
-
-[[Search the desktop|Day-3-search-2]]
+[[>> Search the chair.|Day-3-search-0]]
+[[>> Search the keyboard.|Day-3-search-1]]
+[[>> Search the desktop.|Day-3-search-2]]
 
 
 :: Day-3-Finale-0 {"position":"3400,875","size":"100,100"}
@@ -1904,17 +1905,14 @@ You feel an urge to reflect on your day.
 :: minigame-23 {"position":"4275,675","size":"100,100"}
 You see a familiar short blurb at the top of your screen.
 
-Your list of topics to censor:
-
-<span class="computer-text">- Malreports of statistics.
+<span class="computer-text">Today's list of topics to censor:
+- Malreports of statistics.
 - Unbecoming behaviour of a Party Member.
 - Any delusions and hallucinations.</span>
  
  [[Do not forget this.|minigame-24]]
  
-<<set $numCorrect = 0>>
-<<set $numWrong = 0>>
-<<set $currentQuestion = 23>>
+<<set $numCorrect = 0>><<set $numWrong = 0>><<set $currentQuestion = 24>>
 
 
 
